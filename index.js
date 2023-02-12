@@ -30,7 +30,7 @@ const corsOptions = {
 }
 console.log(corsOptions);
 //app.use(cors(corsOptions));
-app.use(cors())
+app.use(cors()); //lo deje asi pporque me dabe error de cors
 
 //Routing
 app.use('/api/usuarios', usuarioRoutes);
